@@ -13,8 +13,8 @@ export default function App() {
 
   const [request, response, promptAsync] = Google.useAuthRequest({
     expoClientId: "668358789309-ip8hd6bifn45fi9hu1r115n53vua4u7a.apps.googleusercontent.com",
-    //androidClientId: "694235095257-fkbf1u81sm5ii76om74j5b7h8u4v2m7a.apps.googleusercontent.com",
-    //iosClientId: "668358789309-n2hu1j210p7f1mapjvopi6p21d43lrvs.apps.googleusercontent.com",
+    androidClientId: "694235095257-fkbf1u81sm5ii76om74j5b7h8u4v2m7a.apps.googleusercontent.com",
+    iosClientId: "668358789309-n2hu1j210p7f1mapjvopi6p21d43lrvs.apps.googleusercontent.com",
     webClientId: "668358789309-ip8hd6bifn45fi9hu1r115n53vua4u7a.apps.googleusercontent.com",
     scopes: ["email"]
 
